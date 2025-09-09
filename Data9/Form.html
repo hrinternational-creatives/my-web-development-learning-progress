@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <h1>
+      یہ ایک فارم ہے اس میں میں مختلف آیٹمز ڈالوں گا جو فارم میں استعمال ہوتی ہے
+    </h1>
+    <form action="post" method="post">
+      <div>
+        <label for="username">Username</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Enter your Username"
+        />
+      </div>
+      <div>
+        <label for="male">Male</label>
+        <input type="radio" name="Gender" id="male" value="male" />
+        <label for="female">Female</label>
+        <input type="radio" name="Gender" id="female" value="female" />
+      </div>
+      <div>
+        <input type="checkbox" name="Bank account" id="bank-account" />
+        <label for="bank-account">Did you have your own Bank account</label>
+      </div>
+      <div>
+        <label for="Date-of-birth">Enter your date of Birth</label>
+        <input type="date" name="Date of Birth" id="Date-of-birth" />
+      </div>
+      <div>
+        <label for="Favourite-color">Select your Favourite Color</label>
+        <input type="color" name="Your Favourite Color" id="Favourite-color" />
+      </div>
+      <div>
+        <label for="mail">Enter your email</label>
+        <input
+          type="email"
+          name="Enter your Email"
+          id="mail"
+          placeholder="user@gmail.com"
+        />
+      </div>
+      <div>
+        <label for="cv">Add Your CV</label>
+        <input type="file" name="Add Your CV" id="cv" />
+      </div>
+      <div>
+        <label for="age">Enter your Age</label>
+        <input type="number" name="Enter your Age" id="age" />
+      </div>
+      <div>
+        <label for="code">password</label>
+        <input type="password" name="Enter your password" id="code" />
+      </div>
+      <div>
+        <label for="time">Class time</label>
+        <input type="time" name="add your class time" id="time" />
+      </div>
+      <div>
+        <label for="opl">Add other Accounts </label>
+        <input type="url" name="add your other platforms link" id="opl" />
+      </div>
+      <div>
+        <label for="Select your Class">Select your Class</label>
+            <select name="Select your Class">
+                <option value="1">Class 1</option>
+                <option value="2">Class 2</option>
+                <option value="3">Class 3</option>
+                <option value="4">Class 4</option>
+          </select>
+      <div>
+         <div>
+            <label for="comment">Enter your comment</label>
+            <br>
+            <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
+        </div>
+        <input type="submit" value="Submit your form">
+      </div>
+      <div>
+        <input type="reset" valu="Reset your form">
+    </div>
+    </form>
+  </body>
+</html>
